@@ -1,2 +1,2 @@
-CText: CText.c
-				$(CC) CText.c -o CText -Wall -Wextra -pedantic -std=c99
+ctext: ctext.c
+				$(CC) ctext.c -o ctext -Wall -Wextra -pedantic -std=c99
