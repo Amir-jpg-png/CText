@@ -12,10 +12,6 @@
 #include <stdarg.h>
 #include <fcntl.h>
 
-// These are Single line comments
-// to check if i implemented syntax highlighting correctly
-// Hello World how are you
-
 /* Defines */
 #define CTEXT_VERSION "0.0.1"
 #define TAB_STOP 2
@@ -1109,9 +1105,3 @@ int main(int argc, char *argv[])
   editorClearScreen();
   return 0;
 }
-
-// and here are some other comments as well
-// hi
-// how
-// are
-// you
