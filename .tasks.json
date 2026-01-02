@@ -3,5 +3,20 @@
     "checked": false,
     "id": 1,
     "name": "tmp files for file saving"
+  },
+  {
+    "checked": false,
+    "id": 3,
+    "name": "add a contributions.md"
+  },
+  {
+    "checked": false,
+    "id": 4,
+    "name": "document the source code with comments"
+  },
+  {
+    "checked": false,
+    "id": 5,
+    "name": "[OPTIONAL] make a documentation.md or a static documentation site"
   }
 ]
