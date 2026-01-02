@@ -11,7 +11,7 @@ A text editor written in C with no dependencies.
 
 Installation:
 ```bash
-curl -S https://github.com/Amir-jpg-png/CText/blob/main/install.sh | bash
+curl -S https://raw.githubusercontent.com/Amir-jpg-png/CText/refs/heads/main/install.sh | bash
 ```
 
 then follow the instructions, you are invited to look at the install script as I can understand that piping into bash without knowing what the script is trying to accomplish is rather dangerous and I would not encourage it.
