@@ -10,7 +10,7 @@ main (){
   ${CC:-cc} to_compile.c -o ctext -Wall -Wextra -pedantic -std=c99 \
     || fatal 'failed to compile from source'
   rm -f to_compile.c
-  read -p "Do you want to make ctext a global executable? (y/n): " choice
+  read -p "Do you want to make ctext a global executable? (y/n): " choice </dev/tty
 
   if [[ $choice == 'y' ]]; then
     sudo mv ctext /usr/local/bin/;
